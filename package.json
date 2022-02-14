@@ -2,13 +2,29 @@
   "name": "cards4learn",
   "version": "0.1.0",
   "description": "Application to help you learn new things",
-  "workspaces": ["client", "server"],
+  "workspaces": [
+    "client",
+    "server"
+  ],
   "scripts": {
+    "prepare": "husky install",
+    "pre-commit": "cross-env NODE_ENV=production lint-staged",
     "client:start": "npm run dev --workspace=client",
     "client:build": "npm run build --workspace=client",
     "server:start": "npm run start:dev --workspace=server",
     "server:build": "npm run prebuild --workspace=server && npm run build --workspace=server"
   },
+  "lint-staged": {
+    "client/**/*": [
+        "npm run lint --workspace=client"
+    ],
+    "server/**/*": [
+        "npm run lint --workspace=server"
+    ]
+  },
   "author": "dnishcheta@gmail.com",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "husky": "^7.0.4"
+  }
 }
