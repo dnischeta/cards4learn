@@ -7,7 +7,7 @@
     "server"
   ],
   "scripts": {
-    "prepare": "husky install",
+    "postinstall": "npx simple-git-hooks",
     "client:start": "npm run dev --workspace=client",
     "client:build": "npm run build --workspace=client",
     "server:start": "npm run start:dev --workspace=server",
@@ -18,10 +18,10 @@
   },
   "nano-staged": {
     "client/**/*": [
-      "npm run lint:prettier:fix --workspace=client && npm run lint --workspace=client"
+      "npm run lint:prettier:fix --workspace=client", "npm run lint --workspace=client"
     ],
     "server/**/*": [
-      "npm run format --workspace=server &&npm run lint --workspace=server"
+      "npm run format --workspace=server", "npm run lint --workspace=server"
     ]
   },
   "author": "dnishcheta@gmail.com",
