@@ -16,10 +16,10 @@
   },
   "lint-staged": {
     "client/**/*": [
-        "npm run lint --workspace=client"
+        "npm run lint:prettier:fix --workspace=client && npm run lint --workspace=client"
     ],
     "server/**/*": [
-        "npm run lint --workspace=server"
+        "npm run format --workspace=server &&npm run lint --workspace=server"
     ]
   },
   "author": "dnishcheta@gmail.com",
