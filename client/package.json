@@ -20,16 +20,19 @@
     "precommit": "npm lint && npm test && npm build"
   },
   "dependencies": {
+    "@quasar/extras": "^1.12.5",
     "axios": "0.24.0",
     "js-cookie": "3.0.1",
     "normalize.css": "8.0.1",
     "pinia": "^2.0.9",
     "qs": "6.10.2",
+    "quasar": "^2.5.5",
     "vue": "^3.2.26",
     "vue-router": "4.0.12"
   },
   "devDependencies": {
     "@pinia/testing": "^0.0.9",
+    "@quasar/vite-plugin": "^1.0.4",
     "@types/jest": "27.4.0",
     "@types/js-cookie": "3.0.1",
     "@types/qs": "6.9.7",
