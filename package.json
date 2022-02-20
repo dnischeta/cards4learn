@@ -17,8 +17,8 @@
     "pre-commit": "npx nano-staged"
   },
   "nano-staged": {
-    "client/**/*": [
-      "npm run lint:prettier:fix --workspace=client", "npm run lint --workspace=client"
+    "client/**/*.{js,ts,vue,html,css,scss}": [
+      "npm run lint:fix --workspace=client"
     ],
     "server/**/*": [
       "npm run format --workspace=server", "npm run lint --workspace=server"
