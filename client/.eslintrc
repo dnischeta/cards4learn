@@ -30,7 +30,7 @@
       { "registeredComponentsOnly": true }
     ],
     "vue/no-reserved-component-names": "error",
-    "vue/component-api-style": ["error", ["script-setup"]],
+    "vue/component-api-style": ["error", ["composition"]],
     "vue/custom-event-name-casing": ["error", "kebab-case"],
     "vue/html-comment-content-newline": [
       "error",
