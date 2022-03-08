@@ -1,3 +1,3 @@
-import Component from './Component.vue';
+import TheHeader from './Component.vue';
 
-export default Component;
+export { TheHeader };

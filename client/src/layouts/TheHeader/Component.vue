@@ -1,7 +1,7 @@
 <script lang="ts">
 import { defineComponent } from 'vue';
 
-import UiHeader from '@/components/UI/UiHeader';
+import { UiHeader } from '@/components/UI/UiHeader';
 import RouteNames from '@/router/routeNames';
 
 export default defineComponent({

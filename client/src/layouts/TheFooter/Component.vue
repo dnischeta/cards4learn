@@ -1,7 +1,7 @@
 <script lang="ts">
 import { defineComponent } from 'vue';
 
-import UiFooter from '@/components/UI/UiFooter';
+import { UiFooter } from '@/components/UI/UiFooter';
 import { getYear } from '@/helpers/date';
 
 export default defineComponent({

@@ -1,3 +1,3 @@
-import Component from './Component.vue';
+import UiPageContainer from './Component.vue';
 
-export default Component;
+export { UiPageContainer };

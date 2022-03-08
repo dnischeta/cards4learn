@@ -1,3 +1,3 @@
-import Component from './Component.vue';
+import HomePage from './Component.vue';
 
-export default Component;
+export { HomePage };

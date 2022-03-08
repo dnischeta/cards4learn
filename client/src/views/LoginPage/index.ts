@@ -1,3 +1,3 @@
-import Component from './Component.vue';
+import LoginPage from './Component.vue';
 
-export default Component;
+export { LoginPage };

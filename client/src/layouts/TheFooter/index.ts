@@ -1,3 +1,3 @@
-import Component from './Component.vue';
+import TheFooter from './Component.vue';
 
-export default Component;
+export { TheFooter };

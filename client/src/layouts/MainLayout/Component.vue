@@ -1,11 +1,11 @@
 <script lang="ts">
 import { defineComponent } from 'vue';
 
-import UiLayout from '@/components/UI/UiLayout';
-import UiPage from '@/components/UI/UiPage';
-import UiPageContainer from '@/components/UI/UiPageContainer';
-import TheFooter from '@/layouts/TheFooter';
-import TheHeader from '@/layouts/TheHeader';
+import { UiLayout } from '@/components/UI/UiLayout';
+import { UiPage } from '@/components/UI/UiPage';
+import { UiPageContainer } from '@/components/UI/UiPageContainer';
+import { TheFooter } from '@/layouts/TheFooter';
+import { TheHeader } from '@/layouts/TheHeader';
 
 export default defineComponent({
   name: 'MainLayout',
