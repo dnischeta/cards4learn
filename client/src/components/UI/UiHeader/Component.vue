@@ -3,12 +3,11 @@ import { defineComponent } from 'vue';
 
 export default defineComponent({
   name: 'UiHeader',
-  inheritAttrs: false,
 });
 </script>
 
 <template>
-  <q-header v-bind="$attrs">
+  <q-header>
     <slot />
   </q-header>
 </template>

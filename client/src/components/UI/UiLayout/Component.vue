@@ -3,12 +3,11 @@ import { defineComponent } from 'vue';
 
 export default defineComponent({
   name: 'UiLayout',
-  inheritAttrs: false,
 });
 </script>
 
 <template>
-  <q-layout v-bind="$attrs">
+  <q-layout>
     <slot />
   </q-layout>
 </template>

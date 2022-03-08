@@ -3,12 +3,11 @@ import { defineComponent } from 'vue';
 
 export default defineComponent({
   name: 'UiPageContainer',
-  inheritAttrs: false,
 });
 </script>
 
 <template>
-  <q-page-container v-bind="$attrs">
+  <q-page-container>
     <slot />
   </q-page-container>
 </template>

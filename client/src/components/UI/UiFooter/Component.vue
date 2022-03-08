@@ -3,12 +3,11 @@ import { defineComponent } from 'vue';
 
 export default defineComponent({
   name: 'UiFooter',
-  inheritAttrs: false,
 });
 </script>
 
 <template>
-  <q-footer v-bind="$attrs">
+  <q-footer>
     <slot />
   </q-footer>
 </template>
