@@ -58,7 +58,6 @@ export default defineComponent({
 }
 
 .the-header__logo {
-  display: inline-block;
   font-weight: 700;
   font-size: 20px;
   opacity: 1;
@@ -70,5 +69,21 @@ export default defineComponent({
 
 .the-header__list-item:not(:last-child) {
   margin-right: 10px;
+}
+
+.the-header__nav-link {
+  display: inline-block;
+  border-bottom: 1px solid rgb(255 255 255 / 0%);
+  opacity: 0.8;
+  transition: opacity 0.2s linear, border 0.2s linear;
+}
+
+.the-header__nav-link:hover {
+  opacity: 1;
+}
+
+.the-header__nav-link.router-link-exact-active {
+  border-bottom: 1px solid rgb(255 255 255 / 100%);
+  opacity: 1;
 }
 </style>
