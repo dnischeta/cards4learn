@@ -54,7 +54,6 @@ export default defineComponent({
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 10px 0;
 }
 
 .the-header__logo {

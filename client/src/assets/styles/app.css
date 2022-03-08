@@ -17,8 +17,10 @@
 *::after,
 *::before {
   box-sizing: border-box;
-  margin: 0;
-  padding: 0;
+}
+
+body {
+  font-weight: 600;
   font-family: Raleway, sans-serif;
 }
 
@@ -26,6 +28,7 @@ a,
 a:active,
 a:visited {
   color: #fff;
+  font-weight: 400;
   text-decoration: none;
   transition: opacity 0.2s linear;
 }
