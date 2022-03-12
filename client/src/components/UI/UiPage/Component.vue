@@ -1,16 +1,13 @@
 <script lang="ts">
 import { defineComponent } from 'vue';
 
-import { MainLayout } from './layouts/MainLayout';
-
 export default defineComponent({
-  name: 'App',
-  components: {
-    MainLayout,
-  },
+  name: 'UiPage',
 });
 </script>
 
 <template>
-  <MainLayout />
+  <q-page>
+    <slot />
+  </q-page>
 </template>

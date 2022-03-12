@@ -1,16 +1,11 @@
 <script lang="ts">
 import { defineComponent } from 'vue';
 
-import { MainLayout } from './layouts/MainLayout';
-
 export default defineComponent({
-  name: 'App',
-  components: {
-    MainLayout,
-  },
+  name: 'RegistrationPage',
 });
 </script>
 
 <template>
-  <MainLayout />
+  <h1>Registration page</h1>
 </template>
