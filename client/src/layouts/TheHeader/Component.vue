@@ -58,12 +58,13 @@ export default defineComponent({
 
 .the-header__logo {
   font-weight: 700;
-  font-size: 20px;
+  font-size: 1.5rem;
   opacity: 1;
 }
 
 .the-header__list {
   display: flex;
+  font-size: 1rem;
 }
 
 .the-header__list-item:not(:last-child) {
